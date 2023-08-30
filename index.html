@@ -1,17 +1,27 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-GB">
    <head>
       <meta charset="utf-8" />
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <title>Luton Hat Factory</title>
       <meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0, user-scalable=no;user-scalable=0;"/>
 
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+      <meta name="apple-mobile-web-app-title" content="WebGL JS">
+      <meta name="mobile-web-app-capable" content="yes">
+
+      <link rel="manifest" href="manifest.json">
 
       <link rel="stylesheet" href="Template/style.css" />
       
    </head>
    <body class="Dark">
-      <!-- Ambiens VR Multiplatform WebGL Template v 1.3-->
+      <script>
+         if('serviceWorker' in navigator){
+             navigator.serviceWorker.register('./service-worker.js');
+         }
+     </script>
       <!-- Unity Container -->
       <div id="main-container" class="fill-window">
 
