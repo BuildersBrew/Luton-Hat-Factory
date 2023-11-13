@@ -157,3 +157,24 @@ span.imgbutton{
 .fullscreenOFF .imgbutton{
    background-image: url("fullscreenOFF.png") ;
 }
+
+
+.Logo-containter {
+   /* background-color: red; */
+   max-width: 1400px;
+   height: 300px;
+   margin-top: 8vh;
+   margin-left: auto;
+   margin-right: auto;
+
+   display: grid;
+   grid-auto-flow: column;
+   place-items: center;
+   
+}
+
+.brand-logo {
+   width: 100%;
+   max-width: 300px;
+   
+}
