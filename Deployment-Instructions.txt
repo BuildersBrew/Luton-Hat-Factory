@@ -1,0 +1,25 @@
+=== Deployment Instructions ===
+
+ - On a new domain
+The folder should be able to be hosted as-is. This is the recommended way we build our apps.
+There is only one webpage included here, index.html
+The simplest way to host would be to connect that page to its own domain
+A link from your existing website can send you to that domain, the app will on page load
+
+ - On an existing site
+If you would like to integrate this app into an existing website you will need to edit its source html
+Hopefully your web developer is able to edit the site source, depending on if you use a website creator tool like
+Wordpress, Wix, Webflow, etc... that might be tricky or not allowed at all (your only option will be to host a new website).
+
+So long as the paths to the files provided are referencing each other you should be able to call 'Template/app.js' 
+from a custom location. A canvas element with id="unity-canvas" is what the app will draw to.
+
+We use the Unity Engine to build our WebGL apps. If you need more information, searching how to host a 
+Unity WebGL build might reveal anything we've missed here.
+
+
+A temporary link to the app can be found below, we will keep it live until you have successfully hosted the app yourself
+https://buildersbrew.github.io/Luton-Hat-Factory/
+
+Thank you,
+Builders Brew LTD
